@@ -1,30 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Exo);
+
 
 .clear {
   clear:both;
 }
 
-.circle {
+body {
+  background: url('/assets/diagonal_waves.png');
+}
+
+header{
+  background: url('/assets/retina_wood.png');
+}
+
+.logo {
     font-weight:bold;
     font-style: italic;
     position: relative;
-    border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
     margin: 10px 10px;
     text-align: center;
-    color: #FFF;
+    color: #146E26;
     font-size: 10px;
-    line-height: 16px;
-    cursor: pointer;
-    transform:rotate(11deg);
+    line-height: 12px;
     -ms-transform:rotate(11deg); /* IE 9 */
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'Exo', sans-serif;
   font-style: italic;
   padding-top: 26px;
 }
@@ -37,12 +40,8 @@
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
-  font-family: 'finger_paintregular', sans-serif;
+  font-family:  'Exo', sans-serif;
   font-weight:bold;
-}
-
-header {
-  border-top: 12px solid #222222;
 }
 
 hr {
@@ -50,7 +49,7 @@ hr {
 }
 
 h1 {
-  font-family: 'finger_paintregular', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-weight: bold;
   font-size: 48px;
  }
@@ -61,8 +60,8 @@ h2 {
 
 
 .next-quote {
-  color:#9DA5FA;
-  font-family: 'finger_paintregular', sans-serif;
+  color:#146E26;
+  font-family:  'Exo', sans-serif;
   font-size:20px;
 }
 
@@ -96,17 +95,20 @@ h2 span {
 }
 
 h1 {
-  font-family: 'nobileregular', sans-serif;
+  font-family:  'Exo', sans-serif;
   font-weight:bold;
   font-size:48px;
 }
 
 h2 span {
   color: #dddddd;
-  font-family: 'nobileregular', sans-serif;
+  font-family:  'Exo', sans-serif;
 }
 
 ::selection {
   background-color: #f84342;
 }
 
+.footer {
+  background: url('/assets/diagonal_striped_brick.png');
+}
